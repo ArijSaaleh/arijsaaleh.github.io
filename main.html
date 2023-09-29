@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Arij Saleh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <nav>
+        <img src="assets/images/yellow_bg.jpg" alt="logo" />
+        <ul id="sidemenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#ab"> About</a></li>
+          <li><a href="#top">Topics</a></li>
+          <li><a href="#pro">Projects</a></li>
+          <li><a href="#con">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>IoT/Embedded Systems</p>
+        <h1>
+          Hi, I'm<br />
+          <span>Arij</span> Saleh
+        </h1>
+      </div>
+    </div>
+    <!------------about-------->
+    <div id="ab" class="about">
+      <div class="row">
+        <div class="col-1">
+          <img src="/assets/images/transp_bg.png" alt="about image" />
+        </div>
+        <div class="col-2">
+          <h1>About me</h1>
+          <p>
+            Recent graduate in Embedded Systems and IoT Engineering from ESPRIT
+            School of Engineering, driven by a passion for technology and
+            innovation. Seeking career-launching opportunities and open to
+            collaborating on exciting IoT projects. Feel free to reach out to
+            discuss opportunities.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Coding languages</span><br />C/C++ Python Java</li>
+              <li>
+                <span>Web Development</span><br />HTML55 CSS5 Angular NodeJS
+                Spring Boot
+              </li>
+              <li>
+                <span>Electronic boards</span><br />ARDUINO, ESP32/8266,
+                RASPBERRY PI3.
+              </li>
+              <li>
+                <span>Communication protocols</span><br />l RS232, SPI, I2C,
+                Bluetooth, MQTT, WIFI, LoRaWAN
+              </li>
+              <li><span>OS</span><br />Ubuntu/Kali Linux RTOS Windows</li>
+              <li><span>DevOps</span><br />Docker</li>
+              <li>
+                <span>IDE</span><br />Visual studio code/ Eclipse/Netbeans/
+                Intellij/ Thonny/Arduino IDE/EasyEda/Proteus
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span>Jan 2023 - Jul 2023</span><br />NLP/Web Developer at
+                Esprit school of Engineering research department
+              </li>
+              <li>
+                <span>Jun 2022 - Oct 2022</span><br />Embedded Systems Developer
+                at Orange Digital center Tunisia
+              </li>
+              <li>
+                <span>Jan 2020 - Jun 2020</span><br />Embedded Systems Developer
+                at Tasemco
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>Sept 2020 - Jul 2023</span><br />Master of Engineering in
+                internet of things from ESPRIT school of Engineering
+              </li>
+              <li>
+                <span>Jun 2022 - Oct 2022</span><br />
+                Applied licence in Embedded systems from ISET Rades, Tunisa
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------Projects-->
+    <div id="top" class="topics">
+      <h1>Topics</h1>
+      <div class="topics-list">
+        <div>
+          <i class="fa-brands fa-linux fa-xl"></i>
+          <h2>Linux</h2>
+
+          <p>Operating system history, description and basics</p>
+          <a href="#">learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-code fa-xl"></i>
+          <h2>DevOps</h2>
+          <p>Operating system history, description and basics</p>
+          <a href="#">learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-angular fa-xl"></i>
+          <h2>Angular</h2>
+          <p>Operating system history, description and basics</p>
+          <a href="#">learn more</a>
+        </div>
+      </div>
+    </div>
+    <!--Portfolio-->
+    <div id="pro" class="portfolio">
+      <h1 class="subtitle">Projects</h1>
+      <div class="project-list">
+        <div class="project">
+          <img src="assets/images/pfe.PNG" alt="Graduation project" />
+          <div class="layer">
+            <h3>Admission test Application</h3>
+            <p>
+              Development of a reception function management application for
+              ESPRIT (FAQ), as well as the management of pre-admission
+              interviews.
+            </p>
+            <a href="#"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="assets/images/fireflow.PNG" alt="Fireflow project" />
+          <div class="layer">
+            <h3>Fire forest detection</h3>
+            <p>
+              Realization of an IoT solution for the detection and prediction of
+              forest fires propagation in real-time.
+            </p>
+            <a href="#"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="assets/images/bionic.PNG" alt="Bionic hand project" />
+          <div class="layer">
+            <h3>Bionic Hand</h3>
+            <p>
+              This advanced prosthetic hand was meticulously designed and 3D
+              printed, incorporating state-of-the-art technologies such as
+              electromyography (EMG) sensors and servo-motors.
+            </p>
+            <a href="#"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+    <!----------------Contact-------->
+    <div id="con" class="contact">
+      <div class="row">
+        <div class="colcontact-left">
+          <h1>Contact me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>ariij.saleh@gmail.com</p>
+          <p><i class="fa-brands fa-whatsapp"></i>+216 26 290 351</p>
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/arij-saleh-sa/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://www.github.com/ArijSaaleh/"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+          <a
+            href="assets/attachement/Arij Saleh CV.pdf"
+            download
+            class="btn btn2"
+            >Download CV</a
+          >
+        </div>
+        <div class="colcontact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="your name" required />
+            <input
+              type="email"
+              name="Email"
+              placeholder="name@email.com"
+              required
+            />
+            <textarea
+              name="Message"
+              rows="6"
+              placeholder="Your message"
+            ></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p><i class="fa-solid fa-copyright"></i> Copyright to Arij Saleh, 2023</p>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openMenu() {
+        sidemenu.style.right = "0";
+      }
+      function closeMenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzf29HPe6vsHtWi_AalgM93iwCYtlORRP369WPQzqiGGp1_wagig-bpqx1V1mx5vHbECQ/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully !";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 2000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
