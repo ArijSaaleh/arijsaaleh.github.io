@@ -328,13 +328,13 @@ form .btn2 {
 
 @media screen and (max-width: 600px) {
   .header {
-    background-image: url(assets/images/85.jpg);
-    background-size: 220% 120vh;
-    background-position: -200px;
+    background-image: url(assets/images/20.jpeg);
+    background-size: 270% 120vh;
+    background-position: -490px;
   }
   .header-text {
     margin-top: 50%;
-    font-size: 20px;
+    font-size: 35px;
   }
   .header-text h1 {
     font-size: 30px;
