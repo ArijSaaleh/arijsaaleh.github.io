@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #e70045;
+  --color-secondary: rgb(158, 69, 0);
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #e70045;
+  --color-secondary: rgb(158, 69, 0);
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -667,7 +667,7 @@ section {
   transition: all 0.4s ease-out;
 }
 .main-btn.btns{
-  background-color: #e70045;
+  background-color: rgb(158, 69, 0);
 }
 
 .main-title {
